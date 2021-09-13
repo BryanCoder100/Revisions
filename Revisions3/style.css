@@ -1,0 +1,46 @@
+body{
+    background:url("./image/fond-ecran-wallpaper-huawei-p40-header.jpg");
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+h1,h2,h3{
+    background: black;
+    color: white;
+    text-align: center;
+    border:4px solid white;
+    border-radius: 2rem;
+    width: 15rem;
+    font-style:italic;
+}
+h1{
+    font-size: 45px;
+    width: 25rem;
+    border-radius: 2rem;
+}
+section div:nth-child(1){
+    font-size: 25px;
+    width: 30rem;
+    padding:1rem;
+    background-color: black;
+    border: 2px;
+    border-radius: 2rem;
+}
+li{
+    background-color: black;
+    font-size: 2rem;
+    list-style: none;
+    border: 1px solid;
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+li:hover{
+    font-size: 2.5rem; 
+    color: red;
+}
+li:nth-child(3):hover{
+    color:yellow ;
+}
