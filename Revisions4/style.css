@@ -1,0 +1,38 @@
+*{
+    background: none;
+}
+@font-face {
+    font-family: "police";
+    src: url();
+}
+
+body{
+    height: auto;
+    background:url(./image/space_bg.jfif);
+    font-family:"Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+img{
+    margin: 2rem;
+}
+header{
+    margin-top: 2rem;
+    height: 5rem;
+}
+section{
+    background: black;
+}
+.All_chown{
+    width: 62rem;
+}
+h1,h2{
+    color: white;
+}
+ footer{
+    background:black;
+    margin-top: 2rem;
+    width: 100%;
+}
