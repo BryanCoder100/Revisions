@@ -1,0 +1,52 @@
+body{
+    background: url("./image/Bg.jpg");
+    color: white;
+  
+}
+#FirstSection{
+    background:yellow;
+    color: black;
+    height: 3rem;
+    width: 20rem;
+    align-self: center;
+  
+}
+#SecondSection{
+    height: 05rem;
+    width: 20rem;
+    margin: 2rem;
+    align-self: center;
+    
+}
+#ThirdSection{
+    align-self: center;
+    height: 12rem;
+}
+#square{
+    background-color:rgb(116, 208, 241);
+    height: 150px;
+    width: 150px;
+}
+#RoundButton{
+    margin: 10rem;
+    height: 05rem;
+    width: 05rem;
+    border-radius: 50%;
+}  
+#dice{
+    height: 3rem;
+}
+#buttonFive{
+    height: 2rem;
+    width: 9rem;
+    margin-top: 1rem;
+}
+
+#allSection{
+    display: flex;
+    flex-direction: column;
+    background-color:  black;
+    border-radius: 10rem;
+    padding: 5rem;
+    margin: 10rem;
+}
